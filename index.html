@@ -4,16 +4,16 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=PT+Serif|Raleway" rel="stylesheet">
     <link href="style/styles.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-
 <body>
-    <nav class="nav-web">
-        <img src="images/logo.png">
-        <a href="#leistungen">Leistungen</a>
-        <a href="#kontakt">Kontakt</a>
+    <nav class="nav">
+        <img class="nav__logo" src="images/logo.png">
+        <div class="nav__spacer">&nbsp;</div>
+        <a class="nav__link" href="#leistungen">Leistungen</a>
+        <a class="nav__link" href="#kontakt">Kontakt</a>
     </nav>
-
 
     <section class="section__foto">
         <div class="section__foto-teaser">
@@ -28,16 +28,14 @@
                 <strong>Blechbearbeitung</strong>.
             </p>
             <p>Wir machen Ihnen gerne ein Angebot. <a href="#kontakt">Rufen Sie uns an!</a></p>
-            
+
             <svg height="60" width="60">
                 <polyline points="15,25 35,50 55,25" stroke="#eee" stroke-width="3" fill="none" />
             </svg>
         </div>
-        <a id="leistungen"></a>    
     </section>
-    
-    
     <section class="section__dienstleistungen">
+        <a id="leistungen">&nbsp;</a>
         <h1>Leistungen</h1>
         <div class="article__container">
             <article id="installationen" class="article article--installationen">
@@ -116,9 +114,11 @@
         <div class="partner__container">
             <div class="partner__logo" style="background-image: url('images/partner/rehau.png')"></div>
         </div>
+
     </section>
 
-    <section id="kontakt" class="section__kontakt">
+    <section class="section__kontakt">
+        <a id="kontakt">&nbsp;</a>
         <h1>Kontakt / Impressum</h1>
         <p class="kontakt__para">
             Unsere Geschäftszeiten sind Montags bis Freitags von 7:00 bis 17:00 Uhr.
@@ -136,11 +136,10 @@
         <h2>Anfahrtsplan</h2>
     </section>
     <div class="map-container">
-        <iframe class="map" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDfZiS1GEhQ7TNmhLpdDfPeP3NReoskzGw
+        <iframe title="Anfahrt Google Map" class="map" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDfZiS1GEhQ7TNmhLpdDfPeP3NReoskzGw
             &q=Ochenbrucker Straße 2, Schwarzenbruck" allowfullscreen>
         </iframe>
     </div>
-
 </body>
 
 </html>
