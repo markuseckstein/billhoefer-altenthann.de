@@ -1,19 +1,19 @@
 :root {
-    --header-height: 90px;
-    --header-height-mobile: 105px;
+  --header-height: 90px;
+  --header-height-mobile: 105px;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 h1,
@@ -22,219 +22,221 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
 }
 
 h1 {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 h2 {
-    font-size: 1.6em;
+  font-size: 1.6em;
 }
 
 .nav {
-    padding-right: 45px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: var(--header-height);
-    position: fixed;
-    background-color: white;
+  padding-right: 45px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: var(--header-height);
+  position: fixed;
+  background-color: white;
 }
 
 section {
-    padding: 15px;
+  padding: 15px;
 }
 
 a {
-    color: inherit;
+  color: inherit;
 }
 
 a:hover {
-    color: #76323f;
+  color: #76323f;
 }
 
 a:visited {
-    color: inherit;
+  color: inherit;
 }
 
 .section__foto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: var(--header-height);
-    background-image: url('../images/mitarbeiter02.jpg');
-    background-size: cover;
-    background-position: 39% 89%;
-    background-attachment: fixed;
-    height: 100vh;
-    color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: var(--header-height);
+  background-image: url("../images/mitarbeiter02.jpg");
+  background-size: cover;
+  background-position: 39% 89%;
+  background-attachment: fixed;
+  height: 100vh;
+  color: white;
 }
 
 .section__foto-teaser {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .section__foto-angebot {
-    height: auto;
-    font-size: 1.4em;
-    text-shadow: 1px 1px 10px #111;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  height: auto;
+  font-size: 1.4em;
+  text-shadow: 1px 1px 10px #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .section__foto-teaser-headline {
-    font-size: 3.4em;
-    text-shadow: 1px 1px 10px #111;
-    text-align: center;
+  font-size: 3.4em;
+  text-shadow: 1px 1px 10px #111;
+  text-align: center;
 }
 
 .section__foto-teaser-text {
-    font-size: 1.9em;
-    text-shadow: 1px 1px 10px #111;
-    text-align: center;
+  font-size: 1.9em;
+  text-shadow: 1px 1px 10px #111;
+  text-align: center;
 }
 
 .nav__link {
-    text-decoration: none;
-    font-weight: bold;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .nav__spacer {
-    display: none;
-    height: 1px;
+  display: none;
+  height: 1px;
 }
-
 
 /* Small Devices, Tablets */
 
 @media only screen and (max-width: 768px) {
-    .section__foto-angebot {
-        font-size: 1.0em;
-    }
-    .section__foto-teaser-headline {
-        font-size: 2em;
-    }
-    .section__foto-teaser-text {
-        font-size: 1.5em;
-    }
+  .section__foto-angebot {
+    font-size: 1em;
+  }
+  .section__foto-teaser-headline {
+    font-size: 2em;
+  }
+  .section__foto-teaser-text {
+    font-size: 1.5em;
+  }
 }
-
 
 /* Custom, iPhone Retina */
 
 @media only screen and (max-width: 500px) {
-    .nav {
-        flex-wrap: wrap;
-        height: var(--header-height-mobile);
-        padding-bottom: 10px;
-    }
-    .nav__spacer {
-        display: block;
-        flex-grow: 1;
-        width: 100%;
-    }
-    .nav__link {
-        margin: 0 20px;
-    }
+  .nav {
+    flex-wrap: wrap;
+    height: var(--header-height-mobile);
+    padding-bottom: 10px;
+  }
+  .nav__spacer {
+    display: block;
+    flex-grow: 1;
+    width: 100%;
+  }
+  .nav__link {
+    margin: 0 20px;
+  }
 }
 
 a#leistungen,
 a#kontakt {
-    visibility: hidden;
-    position: relative;
-    top: -75px;
+  visibility: hidden;
+  position: relative;
+  top: -75px;
 }
 
 .section__dienstleistungen {
-    background-color: #eee;
+  background-color: #eee;
 }
 
 .section__partner {
-    background-color: white;
+  background-color: white;
 }
 
 .section__kontakt {
-    background-color: #EAE8DE;
+  background-color: #eae8de;
 }
 
 .kontakt__para {
-    margin-bottom: 2em;
+  margin-bottom: 2em;
+}
+
+.datenschutz {
+  font-size: 0.8em;
 }
 
 .map-container {
-    height: 50vmax;
+  height: 50vmax;
 }
 
 .map {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .article__container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-    grid-gap: 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-gap: 1em;
 }
 
 .article {
-    min-width: 290px;
-    background-color: #E4E4E4;
-    border: 1px solid #E4E4E4;
+  min-width: 290px;
+  background-color: #e4e4e4;
+  border: 1px solid #e4e4e4;
 }
 
 .article__text {
-    padding: 0 1.8em;
+  padding: 0 1.8em;
 }
 
 .article::before {
-    content: '';
-    background-size: cover;
-    height: 170px;
-    display: block;
+  content: "";
+  background-size: cover;
+  height: 170px;
+  display: block;
 }
 
 .article--installationen::before {
-    background-image: url('../images/installation1.jpg');
+  background-image: url("../images/installation1.jpg");
 }
 
 .article--heizungen::before {
-    background-image: url('../images/heizkoerper1.jpg');
+  background-image: url("../images/heizkoerper1.jpg");
 }
 
 .article--solaranlagen::before {
-    background-image: url('../images/solarhaus_small.jpg');
+  background-image: url("../images/solarhaus_small.jpg");
 }
 
 .article--blechbearbeitung::before {
-    background-image: url('../images/trapezblech_small.jpg');
+  background-image: url("../images/trapezblech_small.jpg");
 }
 
 .article--kundendienst::before {
-    background-image: url('../images/kundendienst.jpg');
+  background-image: url("../images/kundendienst.jpg");
 }
 
 .partner__container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .partner__logo {
-    margin-right: 50px;
-    display: inline-block;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 160px;
-    height: 80px;
-    margin-bottom: 2em;
+  margin-right: 50px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 80px;
+  margin-bottom: 2em;
 }
