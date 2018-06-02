@@ -1,0 +1,150 @@
+﻿@import url('layout.css');
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #000;
+	background-color: #c5c987;
+}
+#container {
+	width: 646px;
+	margin: 0 auto;
+	background-image: url("../images/background.gif");
+	background-repeat: repeat-y;
+	background-attachment: scroll;
+}
+#masthead {
+	width: 626px;
+	margin-top: 0;
+	margin-right: 10px;
+	margin-bottom: 0;
+	margin-left: 10px;
+	overflow: auto;
+	background-color: #c9a287;
+}
+#sidebar {
+	float: left;
+	width: 150px;
+	background-color: #797c53;
+	position: relative;
+	clear: both;
+	margin-left: 10px;
+	display: inline;
+}
+#content {
+	float: right;
+	width: 456px;
+	margin-top: 0;
+	margin-right: 10px;
+	margin-left: 0;
+	padding: 10px;
+	background-color: #fff;
+	position: relative;
+}
+#footer {
+	text-align: center;
+	clear: both;
+	width: 626px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 0;
+	overflow: auto;
+	background-color: #676947 /*#689 */;
+}
+
+#masthead {
+	height: 150px;
+}
+
+#masthead img {
+	float: right;
+}
+#masthead p {
+	font-size: 0.8em;
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+/* Styles for Navigation */
+#sidebar ul {
+	list-style-type: none;
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#sidebar li {
+	font-size: 0.9em;
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #797C53/* #d3d3d3 */;
+}
+
+#sidebar li.subitem {
+	margin-left:15px;
+}
+
+.invisible {
+	display: none;
+}
+
+#sidebar a {
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #c5c987/*#f2f2f2 */;
+}
+#sidebar a:hover {
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	border-bottom: 1px solid #c5c987;
+	background-color: #c5c987;
+}
+/* Styles for Footer */
+#footer p {
+	font-size: 0.8em;
+	color: #fff;
+	margin: 2px;
+	padding: 2px;
+}
+#footer a {
+	color: #fff;
+	text-decoration: underline;
+}
+#footer a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.style_bold {
+	font-weight: bold;
+}
+.style_italic {
+	font-style: italic;
+}
+
+h2 {
+	color: #676947 ;
+}
+
+h3 {
+	margin-top: 25px;
+	margin-bottom:5px;
+	color:#676947 ;
+}
+
+a {
+	text-decoration:none;
+	color: #676947;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+img {
+	border: 0px;
+}
+
