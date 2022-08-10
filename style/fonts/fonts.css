@@ -1,0 +1,19 @@
+/* pt-serif-regular - latin */
+@font-face {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('./pt-serif-v17-latin-regular.woff2') format('woff2'),
+        url('./pt-serif-v17-latin-regular.woff') format('woff');
+}
+
+/* raleway-regular - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('./raleway-v28-latin-regular.woff2') format('woff2'),
+        url('./raleway-v28-latin-regular.woff') format('woff');
+}
